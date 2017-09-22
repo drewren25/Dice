@@ -13,30 +13,30 @@ void draw()
       Die bob = new Die(x, y);
       bob.show();
       {
-        if((int)(Math.random()*20) == (int)(Math.random()*20))
+        if((int)(Math.random()*10) == (int)(Math.random()*10))
         {
         fill(0);
         ellipse(x +25, y + 25, 8, 8);
         
-        }else if((int)(Math.random()*10) == (int)(Math.random()*20))
+        }else if((int)(Math.random()*10) == (int)(Math.random()*10))
         {
           fill(0);
           ellipse(x+10, y+10, 8, 8);
           ellipse(x+40, y+40, 8, 8);         
-        }else if((int)(Math.random()*10) == (int)(Math.random()*20))
+        }else if((int)(Math.random()*10) == (int)(Math.random()*10))
         {
            fill(0);
         ellipse(x+10, y+10, 8, 8);
           ellipse(x+40, y+40, 8, 8);
           ellipse(x +25, y + 25, 8, 8);
-        }else if((int)(Math.random()*10) == (int)(Math.random()*20))
+        }else if((int)(Math.random()*10) == (int)(Math.random()*10))
       {
         fill(0);
         ellipse(x+10, y+10, 8, 8);
         ellipse(x+40, y+40, 8, 8);
         ellipse(x+40, y+10, 8, 8);
         ellipse(x+10, y+40, 8, 8);
-      }else if((int)(Math.random()*10) == (int)(Math.random()*20))
+      }else if((int)(Math.random()*10) == (int)(Math.random()*10))
       {
        fill(0);
         ellipse(x+10, y+10, 8, 8);
@@ -54,6 +54,7 @@ void draw()
         ellipse(x+10, y+25, 8, 8);
         ellipse(x+40, y+25, 8, 8);
       }
+      text("Total=", 350, 400);
       }
     }
   }
