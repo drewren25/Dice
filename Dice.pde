@@ -13,22 +13,47 @@ void draw()
       Die bob = new Die(x, y);
       bob.show();
       {
-        if((int)(Math.random()*10) == (int)(Math.random()*6))
+        if((int)(Math.random()*20) == (int)(Math.random()*20))
         {
         fill(0);
         ellipse(x +25, y + 25, 8, 8);
         
-        fill(0);
-        ellipse(x+10, y+10, 8, 8);
-          ellipse(x+40, y+40, 8, 8);
-          ellipse(x +25, y + 25, 8, 8);
-        }else
+        }else if((int)(Math.random()*10) == (int)(Math.random()*20))
         {
           fill(0);
           ellipse(x+10, y+10, 8, 8);
           ellipse(x+40, y+40, 8, 8);         
-        }
-      
+        }else if((int)(Math.random()*10) == (int)(Math.random()*20))
+        {
+           fill(0);
+        ellipse(x+10, y+10, 8, 8);
+          ellipse(x+40, y+40, 8, 8);
+          ellipse(x +25, y + 25, 8, 8);
+        }else if((int)(Math.random()*10) == (int)(Math.random()*20))
+      {
+        fill(0);
+        ellipse(x+10, y+10, 8, 8);
+        ellipse(x+40, y+40, 8, 8);
+        ellipse(x+40, y+10, 8, 8);
+        ellipse(x+10, y+40, 8, 8);
+      }else if((int)(Math.random()*10) == (int)(Math.random()*20))
+      {
+       fill(0);
+        ellipse(x+10, y+10, 8, 8);
+        ellipse(x+40, y+40, 8, 8);
+        ellipse(x+40, y+10, 8, 8);
+        ellipse(x+10, y+40, 8, 8);
+        ellipse(x+25, y+25, 8, 8);
+      }else 
+      {
+         fill(0);
+        ellipse(x+10, y+10, 8, 8);
+        ellipse(x+40, y+40, 8, 8);
+        ellipse(x+40, y+10, 8, 8);
+        ellipse(x+10, y+40, 8, 8);
+        ellipse(x+10, y+25, 8, 8);
+        ellipse(x+40, y+25, 8, 8);
+      }
       }
     }
   }
